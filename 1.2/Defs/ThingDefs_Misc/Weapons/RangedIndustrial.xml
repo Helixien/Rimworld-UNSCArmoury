@@ -456,7 +456,7 @@
         <defName>RUA_Bullet_AdvancedShotgun</defName>
         <label>advanced bullet</label>
         <graphicData>
-            <texPath>Things/Projectile/HRACA_Bullet_Charge_Shotgun</texPath>
+            <texPath>Things/Projectile/Bullet_Shotgun</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <projectile>
