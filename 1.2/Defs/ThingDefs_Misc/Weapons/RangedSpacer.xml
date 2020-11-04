@@ -9,7 +9,7 @@
         <description>ph</description>
         <techLevel>Spacer</techLevel>
         <graphicData>
-            <texPath>Things/WeaponRanged/HaloStanchion</texPath>
+            <texPath>Things/Item/Equipment/WeaponRanged/HaloStanchion</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_ChargeRifle</soundInteract>
@@ -98,7 +98,7 @@
         <description>ph</description>
         <techLevel>Spacer</techLevel>
         <graphicData>
-            <texPath>Things/WeaponRanged/HaloGaussRifle</texPath>
+            <texPath>Things/Item/Equipment/WeaponRanged/HaloGaussRifle</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_ChargeRifle</soundInteract>

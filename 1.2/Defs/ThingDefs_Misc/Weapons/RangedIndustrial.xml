@@ -505,7 +505,6 @@
             <Steel>100</Steel>
             <ComponentSpacer>8</ComponentSpacer>
         </costList>
-        <equippedAngleOffset>45</equippedAngleOffset>
         <weaponTags Inherit="False">
             <li>SniperRifle</li>
             <li>RUA_Gun</li>
