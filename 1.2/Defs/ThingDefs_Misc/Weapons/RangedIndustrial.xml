@@ -514,7 +514,7 @@
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>RUA_Bullet_AdvancedSniperRifle</defaultProjectile>
                 <warmupTime>4.5</warmupTime>
-                <range>49.9</range>
+                <range>43.9</range>
                 <soundCast>Shot_SniperRifle</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>11</muzzleFlashScale>
