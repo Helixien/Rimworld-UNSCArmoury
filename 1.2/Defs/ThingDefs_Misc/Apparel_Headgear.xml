@@ -17,7 +17,7 @@
             <texPath>Things/Pawn/Humanlike/Apparel/HaloCombatHelmet/HaloCombatHelmet</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <uiIconScale>1.4</uiIconScale>
+        <uiIconScale>1.2</uiIconScale>
         <statBases>
             <WorkToMake>12000</WorkToMake>
             <MaxHitPoints>140</MaxHitPoints>
