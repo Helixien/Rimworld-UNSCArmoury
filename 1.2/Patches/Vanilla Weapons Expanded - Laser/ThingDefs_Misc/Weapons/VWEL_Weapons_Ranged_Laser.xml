@@ -14,8 +14,8 @@
                 <ThingDef ParentName="BaseLaserGun">
                     <defName>RUA_Gun_Anti-TankLaserRifle</defName>
                     <thingClass>VanillaWeaponsExpandedLaser.LaserGun</thingClass>
-                    <label>laser sniper rifle</label>
-                    <description>An ultratech sniper rifle capable of emitting a concentrated beam of light with enough power to deal considerable damage over long range.\n\nBy using advanced battery cells, this weapon is capable of warming up, boosting the firing speed with each consecutive shot when standing still.\n\nThis weapon can overheat when fully warmed up, resulting in a small battery explosion around the user.</description>
+                    <label>heavy laser rifle</label>
+                    <description>A heavy shoulder-mount ultratech sniper rifle capable of emitting a concentrated beam of light with enough power to melt through even the heaviest armour on small ships. \n\nBy using advanced battery cells, this weapon is capable of warming up, boosting the firing speed with each consecutive shot when standing still.\n\nThis weapon can overheat when fully warmed up, resulting in a small battery explosion around the user.</description>
                     <graphicData>
                         <texPath>Things/Item/Equipment/WeaponRanged/HaloSpartanLaser</texPath>
                         <graphicClass>Graphic_Single</graphicClass>
@@ -117,9 +117,9 @@
                         <li>Things/Projectile/Shot_LaserSniperRifle</li>
                     </textures>
                     <seam>0.1</seam>
-                    <causefireChance>0.2</causefireChance>
+                    <causefireChance>0.8</causefireChance>
                     <beamWidth>1.5</beamWidth>
-                    <lifetime>120</lifetime>
+                    <lifetime>240</lifetime>
                     <projectile>
                         <damageDef>Burn</damageDef>
                         <damageAmountBase>45</damageAmountBase>

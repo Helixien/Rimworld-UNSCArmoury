@@ -5,8 +5,8 @@
 
     <ThingDef ParentName="BaseHumanMakeableGun">
         <defName>RUA_Gun_ChargeStanchion</defName>
-        <label>stanchion rifle</label>
-        <description>ph</description>
+        <label>stanchion sniper rifle</label>
+        <description>An experimental charged-shot sniper shooting mechanoid-ilke lancer shots. Combining pulse-charge technology with older gas-operated weapon design, this weapon is truly unique and yet, extremely powerful.</description>
         <techLevel>Spacer</techLevel>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HaloStanchion</texPath>
@@ -81,8 +81,8 @@
         </graphicData>
         <projectile>
             <damageDef>Bullet</damageDef>
-            <damageAmountBase>28</damageAmountBase>
-            <armorPenetrationBase>0.45</armorPenetrationBase>
+            <damageAmountBase>40</damageAmountBase>
+            <armorPenetrationBase>0.65</armorPenetrationBase>
             <stoppingPower>4.5</stoppingPower>
             <speed>80</speed>
         </projectile>
@@ -93,7 +93,7 @@
     <ThingDef ParentName="BaseHumanMakeableGun">
         <defName>RUA_Gun_HeavyChargeRifle</defName>
         <label>heavy charge rifle</label>
-        <description>ph</description>
+        <description>A heavy charged-shot assault rifle shooting in short two bullet bursts. Pulse-charge technology charges each shot with unstable energy as it leaves the barrel. Released on impact, the charged energy greatly increases the damage done.</description>
         <techLevel>Spacer</techLevel>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HaloGaussRifle</texPath>
@@ -171,7 +171,7 @@
         <projectile>
             <damageDef>Bullet</damageDef>
             <damageAmountBase>18</damageAmountBase>
-            <armorPenetrationBase>0.45</armorPenetrationBase>
+            <armorPenetrationBase>0.35</armorPenetrationBase>
             <speed>75</speed>
         </projectile>
     </ThingDef>

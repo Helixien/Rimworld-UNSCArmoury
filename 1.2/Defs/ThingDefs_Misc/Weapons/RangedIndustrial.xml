@@ -2,10 +2,11 @@
 <Defs>
 
     <!-- ============================ Halo Magnum ========================== -->
+
     <ThingDef ParentName="BaseHumanMakeableGun">
         <defName>RUA_Gun_AdvancedMagnum</defName>
         <label>advanced pistol</label>
-        <description>ph</description>
+        <description>An advanced blowback-operated self-loading pistol. It lacks stopping power and range, but does a high amount of damage.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HaloMagnum</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -89,7 +90,7 @@
     <ThingDef ParentName="BaseHumanMakeableGun">
         <defName>RUA_Gun_AdvancedAssaultRifle</defName>
         <label>advanced assault rifle</label>
-        <description>ph</description>
+        <description>An advanced gas-operated assault rifle for urban and boarding combat. What it lacks in accuracy, it makes up with damage and bullets fired.</description>
         <techLevel>Spacer</techLevel>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HaloAssaultRifle</texPath>
@@ -180,7 +181,7 @@
     <ThingDef ParentName="BaseHumanMakeableGun">
         <defName>RUA_Gun_AdvancedBattleRifle</defName>
         <label>advanced battle rifle</label>
-        <description>ph</description>
+        <description>An advanced battle rifle shooting three bullet bursts. It has good range, damage and armour penetration.</description>
         <techLevel>Spacer</techLevel>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HaloBattleRifle</texPath>
@@ -281,7 +282,7 @@
     <ThingDef ParentName="BaseHumanMakeableGun">
         <defName>RUA_Gun_AdvancedDMR</defName>
         <label>advanced marksman rifle</label>
-        <description>ph</description>
+        <description>An advanced marksman rifle shooting with exceptionally long range, great accuracy and good power. It files both the role of a combat and sniper rifle.</description>
         <techLevel>Spacer</techLevel>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HaloDMR</texPath>
@@ -381,7 +382,7 @@
     <ThingDef ParentName="BaseHumanMakeableGun">
         <defName>RUA_Gun_AdvancedShotgun</defName>
         <label>advanced shotgun</label>
-        <description>ph</description>
+        <description>An automatic advanced shotgun. It is even shorter-ranged than a typical shotgun, but is extraordinarily dangerous due to its damage output.</description>
         <techLevel>Spacer</techLevel>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HaloShotgun</texPath>
@@ -452,14 +453,14 @@
 
     <ThingDef ParentName="BaseBullet">
         <defName>RUA_Bullet_AdvancedShotgun</defName>
-        <label>advanced bullet</label>
+        <label>advanced shotgun blast</label>
         <graphicData>
             <texPath>Things/Projectile/Bullet_Shotgun</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <projectile>
             <damageDef>Bullet</damageDef>
-            <damageAmountBase>15</damageAmountBase>
+            <damageAmountBase>25</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
             <armorPenetrationBase>0.25</armorPenetrationBase>
             <speed>55</speed>
@@ -471,7 +472,7 @@
     <ThingDef ParentName="BaseHumanMakeableGun">
         <defName>RUA_Gun_AdvancedSniperRifle</defName>
         <label>advanced sniper rifle</label>
-        <description>ph</description>
+        <description>An advanced, gas-operated design of precision sniper rifle. It has an exceptionally long range, great accuracy and extreme power.</description>
         <techLevel>Spacer</techLevel>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/HaloSniper</texPath>
@@ -558,14 +559,14 @@
         </graphicData>
         <projectile>
             <damageDef>Bullet</damageDef>
-            <damageAmountBase>28</damageAmountBase>
-            <armorPenetrationBase>0.38</armorPenetrationBase>
+            <damageAmountBase>30</damageAmountBase>
+            <armorPenetrationBase>0.50</armorPenetrationBase>
             <speed>100</speed>
             <stoppingPower>3</stoppingPower>
         </projectile>
     </ThingDef>
 
-    <!-- ============================ Halo SAW ========================== -->
+    <!-- ============================ Halo SAW ==========================
 
     <ThingDef ParentName="BaseHumanMakeableGun">
         <defName>RUA_Gun_AdvancedLMG</defName>
@@ -664,6 +665,6 @@
             <armorPenetrationBase>0.1</armorPenetrationBase>
             <speed>50</speed>
         </projectile>
-    </ThingDef>
+    </ThingDef> -->
 
 </Defs>
